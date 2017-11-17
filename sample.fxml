@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" prefHeight="659.0" prefWidth="937.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <BorderPane prefHeight="675.0" prefWidth="957.0">
+         <bottom>
+            <Button mnemonicParsing="false" onAction="#buttonclicked" prefHeight="65.0" prefWidth="321.0" text="RECOGNISE ELECTRICAL SYMBOL" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="20.0" />
+               </BorderPane.margin>
+            </Button>
+         </bottom>
+         <center>
+            <Canvas blendMode="GREEN" height="440.0" width="793.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</GridPane>
