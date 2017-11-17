@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" blendMode="EXCLUSION" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="438.0" prefWidth="245.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+     <Button fx:id="button7" layoutX="2.0" layoutY="200.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="7" />
+      <Button fx:id="button4" layoutX="2.0" layoutY="262.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="4" />
+      <Button fx:id="button5" layoutX="66.0" layoutY="262.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="5" />
+      <Button fx:id="button8" layoutX="66.0" layoutY="200.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="8" />
+      <Button fx:id="button6" layoutX="127.0" layoutY="262.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="6" />
+      <Button fx:id="button9" layoutX="127.0" layoutY="200.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="9" />
+      <Button fx:id="button3" layoutX="127.0" layoutY="323.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="3" />
+      <Button fx:id="button2" layoutX="66.0" layoutY="323.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="2" />
+      <Button fx:id="button1" layoutX="2.0" layoutY="323.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="1" />
+      <Button fx:id="button0" layoutX="2.0" layoutY="383.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="0" />
+      <Button fx:id="buttonDot" layoutX="66.0" layoutY="383.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="." />
+      <Button fx:id="buttonEqual" layoutX="127.0" layoutY="383.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="=" />
+      <Button fx:id="buttonSum" layoutX="191.0" layoutY="383.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="+" />
+      <Button fx:id="buttonMinus" layoutX="191.0" layoutY="323.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="-" />
+      <Button fx:id="buttonDev" layoutX="191.0" layoutY="200.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="÷">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonMulti" layoutX="191.0" layoutY="262.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="x" />
+      <Button fx:id="buttonAC" layoutX="3.0" layoutY="97.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="27.0" prefWidth="241.0" text="AC" />
+      <TextField fx:id="display" alignment="TOP_RIGHT" blendMode="SRC_ATOP" layoutX="3.0" layoutY="2.0" prefHeight="67.0" prefWidth="241.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <Button fx:id="buttonRoot" layoutX="191.0" layoutY="141.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="√ ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonCos" layoutX="127.0" layoutY="141.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="cos">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonSin" layoutX="66.0" layoutY="141.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="sin">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonPowerMinusOne" layoutX="2.0" layoutY="141.0" mnemonicParsing="false" onAction="#processNumpad" prefHeight="52.0" prefWidth="53.0" text="x-1">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
